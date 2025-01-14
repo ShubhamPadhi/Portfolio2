@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Mystyle1.css">
+    <script src="https://kit.fontawesome.com/6432ab6c12.js" crossorigin="anonymous"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="shortcut icon" href="SINCE 2005.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="SINCE 2005.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web/Frontend Developer</p>
+                <h1 class="animate__animated animate__backInDown">Hi, I'm</h1><h1 class="animate__animated animate__swing"><span >Shubham</span><br> Padhi</h1><h1 class="animate_animated animate__backInUp"> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------about--------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="S1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title animate__animated animate__swing" >About Me</h1>
+                    <p>I am a 3rd-year Information Technology student with a strong enthusiasm for data structures and algorithms (DSA) and web technology. My technical skills include proficiency in C++, data science, and machine learning, and I have experience building machine learning models, such as a logistic regression model for the Iris dataset from Kaggle. I am passionate about exploring the latest trends and advancements in web technology and continually seek opportunities to expand my knowledge and apply my skills in practical projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java Developer</span><br>I have made a Travel and tourism management software <br>using java. Here the frontend and backend are both made in java</li>
+                            <li><span>Front Development</span><br>A sentiment analysis website featuring a sleek and intuitive <br>frontend built with HTML and CSS. The design ensures a <br> responsive and user-friendly experience, enabling seamless <br>input of text data for sentiment evaluation. </li>
+                            <li><span>Machine Learning</span><br>Developed a sentiment analysis model which predicts the emotion.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Apr 2024 - Jun 2024</span><br>AI-ML Eduskill Internship</li>
+                            <li><span>Aug 2024 - Sep 2024</span><br> UI/UX Designing Web/App Interface Training at I<sup>2</sup>IT</li>
+                            <li><span>Jun 2024 - Jun 2025</span><br>Industrial Coordinator in CMC</li>
+                          
+                           
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E.</span><br>International Institute of Information Technology Pune 8.82 CGPA</li>
+                            <li><span>12th HSC</span><br>Model College of Science and Commerce              90%</li>
+                            <li><span>10th SSC</span><br>Holy Cross English High School                     92%</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Services---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="services-list">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Front-end development is the process of creating the visual and interactive parts of a website or app that users see and interact with. Front-end developers use coding languages like HTML, CSS, and JavaScript to build these elements.</p>
+                    <a href="https://www.geeksforgeeks.org/front-end-development/" target="_blank" class="learn-more">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Java Developer</h2>
+                    <p>A Java Developer is a software developer or programmer specializing in creating applications, systems, and software using the Java programming language. Java is a popular, versatile, and platform-independent language widely used in enterprise applications, web development.</p>
+                    <a href="https://www.javatpoint.com/java-developer" target="_blank" class="learn-more">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Machine learning is a type of artificial intelligence (AI) that allows computers to learn and improve from data without being explicitly programmed. It uses algorithms to analyze large amounts of data, identify patterns, and make predictions. </p>
+                    <a href="https://www.geeksforgeeks.org/machine-learning/" target="_blank" class="learn-more">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--            Portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="services-list">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="w-1.jpeg">
+                    <div class="layer">
+                        <h3>Machine Learning</h3>
+                        <p>The sentiment analysis model I developed in machine learning focuses on classifying text data into positive, negative, or neutral sentiments. It involves preprocessing text inputs, extracting meaningful features, and using machine learning algorithms to make predictions. </p>
+                        </p>
+                        <a href="https://colab.research.google.com/drive/1G05kDJ5ixLbIETSO2PVZP51W08bAodtO?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                   </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Travel and Tourism management System</h3>
+                        <p>The travel and tourism management system I developed using Java Swing and MySQL offers a comprehensive platform for managing travel bookings, reservations, customer information, and tour details. The software provides a user-friendly interface, allowing users to search for and book travel packages, while also managing bookings and customer data through a MySQL database. </p>
+                        </p>
+                        <a href="https://github.com/ShubhamPadhi/Travel-Tourism"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images.jpg">
+                    <div class="layer">
+                        <h3>Hospital Food management System</h3>
+                        <p>The hospital food management system I am currently developing using React and Node will streamline the process of managing food orders and delivery for hospital patients. The system aims to offer a responsive and interactive user interface built with React, allowing hospital staff to efficiently manage meal preferences, order tracking, and nutritional requirements for patients. </p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---Content-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shubhampadhi@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9082937044</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter-square" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/shubham-padhi-b338a128a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Shubham Padhi-IIIT Pune (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Yoy=ur Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><marquee scroll-delay="10" direction="right">© 2024 My Portfolio .<i class="fa-solid fa-heart"></i>> All rights reserved.</marquee></p>
+        </div>
+    </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+
+</body>
+</html>
